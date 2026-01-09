@@ -1,7 +1,7 @@
 # rng-custom-mapper
 A lightweight, client-side tool to generate random number sequences and instantly map them to custom string outputs.
 
-It runs entirely in your browser with no server dependencies; perfect for offline use.
+Runs fully offline and locally in your browser with no server dependencies.
 
 Link: https://ceqell.github.io/rng-custom-mapper
 
