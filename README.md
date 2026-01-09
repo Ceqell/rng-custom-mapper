@@ -24,7 +24,7 @@ Generating a sequence of length 5, you might get: `A, C, C, E, B`.
 ## Features
 
 * **Custom Mappings:** Add as many input/output pairs as needed.
-* **Flexible Config:** Adjust the sequence length from 1 to 1000 items.
+* **Flexible Config:** Adjustable sequence length.
 * **Visualizations:**
     * **Raw Sequence:** Copy-paste friendly text output.
     * **Grid View:** Visual representation of the generated items.
