@@ -56,7 +56,7 @@ function renderMappings() {
         el.addEventListener('input', (e) => updateMapping(e.target.dataset.id, 'target', e.target.value))
     );
     document.querySelectorAll('.delete-btn').forEach(el => 
-        el.addEventListener('click', (e) => removeMapping(parseInt(e.target.dataset.id)))
+        el.addEventListener('click', (e) => removeMapping(parseInt(e.currentTarget.dataset.id)))
     );
 
     // ADD THIS: Tell Lucide to look for new <i data-lucide> tags and render them
