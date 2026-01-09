@@ -1,5 +1,5 @@
 # rng-custom-mapper
-A lightweight, client-side tool to generate random number sequences and instantly map them to custom outputs (text, HTML, or values).
+A lightweight, client-side tool to generate random number sequences and instantly map them to custom string outputs.
 
 It runs entirely in your browser with no server dependencies; perfect for offline use.
 
