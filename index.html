@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Mapper RNG</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="title-group">
+                <i data-lucide="dices" class="icon-brand"></i>
+                <h1>Custom Mapper RNG</h1>
+            </div>
+            <button id="btn-reset" class="btn-text">
+                <i data-lucide="rotate-ccw" width="14" height="14"></i>
+                Reset Defaults
+            </button>
+        </header>
+
+        <div class="grid-layout">
+            
+            <div class="panel config-panel">
+                <div class="panel-header">
+                    <h2>Configuration</h2>
+                    <span id="item-count-badge" class="badge">0 Items</span>
+                </div>
+
+                <div id="mapping-list" class="mapping-list">
+                    </div>
+
+                <button id="btn-add" class="btn-dashed">
+                    <i data-lucide="plus" width="16" height="16"></i>
+                    Add Mapping
+                </button>
+
+                <hr class="divider">
+
+                <div class="controls">
+                    <label>Sequence Length</label>
+                    <input type="number" id="input-length" value="10" min="1" max="1000">
+                    
+                    <button id="btn-generate" class="btn-primary">
+                        Generate Sequence
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel results-panel">
+                <div class="panel-header">
+                    <h2>Results</h2>
+                    <button id="btn-copy" class="btn-small" style="display: none;">
+                        Copy CSV
+                    </button>
+                </div>
+
+                <div id="results-container" class="results-body">
+                    <div id="empty-state" class="empty-state">
+                        <div class="icon-circle">
+                            <i data-lucide="dices" width="48" height="48" stroke="#cbd5e1"></i>
+                        </div>
+                        <p>Configure mappings and click Generate</p>
+                    </div>
+
+                    <div id="results-content" style="display: none;">
+                        
+                        <div class="card">
+                            <h3>Raw Sequence</h3>
+                            <div id="raw-output" class="raw-text"></div>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="card">
+                                <h3>Frequency Distribution</h3>
+                                <div id="chart-container" class="chart-container">
+                                    </div>
+                            </div>
+
+                            <div class="card">
+                                <h3>Item Grid</h3>
+                                <div id="grid-output" class="grid-output"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+	
+	<footer>
+            <p>
+                Made with ❤️ by <strong>Ceqell</strong>
+            </p>
+            <p class="legal">
+                Licensed under the Apache License 2.0 &bull; Copyright © 2026 Khonthee Jaroensiriphan
+            </p>
+			<p class="legal">
+                Licensed under the Apache License 2.0 &bull; Copyright 2026 Khonthee Jaroensiriphan
+            </p>
+        </footer>
+
+    <script src="js/script.js"></script>
+	<script src="js/lucide.min.js"></script>
+</body>
+</html>
