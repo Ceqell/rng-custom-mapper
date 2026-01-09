@@ -3,6 +3,8 @@ A lightweight, client-side tool to generate random number sequences and instantl
 
 It runs entirely in your browser with no server dependencies; perfect for offline use.
 
+Link: https://ceqell.github.io/rng-custom-mapper
+
 ## How it Works
 
 You configure a set of **Source** inputs (identifiers) and **Output** targets. The generator picks a random Source ID and produces the corresponding Output target.
