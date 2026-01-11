@@ -1,10 +1,11 @@
 // --- STATE ---
 // This acts as the "database" for the app
 let mappings = [
-    { id: 1, source: '1', target: '45' },
-    { id: 2, source: '2', target: '50' },
-    { id: 3, source: '3', target: '55' },
-    { id: 4, source: '4', target: '60' },
+    { id: 1, source: '1', target: 'A' },
+    { id: 2, source: '2', target: 'B' },
+    { id: 3, source: '3', target: 'C' },
+    { id: 4, source: '4', target: 'D' },
+    { id: 5, source: '5', target: 'E' },
 ];
 let sequenceLength = 10;
 let results = [];
@@ -185,10 +186,11 @@ function copyToClipboard() {
 
 function reset() {
     mappings = [
-        { id: 1, source: '1', target: '45' },
-        { id: 2, source: '2', target: '50' },
-        { id: 3, source: '3', target: '55' },
-        { id: 4, source: '4', target: '60' },
+        { id: 1, source: '1', target: 'A' },
+        { id: 2, source: '2', target: 'B' },
+        { id: 3, source: '3', target: 'C' },
+        { id: 4, source: '4', target: 'D' },
+        { id: 5, source: '5', target: 'E' },
     ];
     sequenceLength = 10;
     inputLength.value = 10;
